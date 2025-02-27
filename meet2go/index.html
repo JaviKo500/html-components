@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <form class="form">
+      <div class="form-container">
+        <div class="input-group">
+          <label for="cash">Pago en efectivo</label>
+          <input type="number" name="cash" id="cash" placeholder="" min="0">
+        </div>
+        <div class="input-group">
+          <label for="batch">Lote / Autorización</label>
+          <input type="text" name="batch" id="batch" placeholder="">
+        </div>
+        <div class="input-group">
+          <label for="cardBrand">Marca Tarjeta</label>
+          <input type="text" name="cardBrand" id="cardBrand" placeholder="">
+        </div>
+        <div class="input-group">
+          <label for="financialEntity">Banco Emisor</label>
+          <input type="text" name="financialEntity" id="financialEntity" placeholder="">
+        </div>
+        <div class="input-group">
+          <label for="financialEntity">Código tarjeta banco</label>
+          <select class="w-full" name="financialEntity" id="financialEntity" placeholder="">
+            <option value="1">1</option>
+            <option value="2">2</option>
+          </select>
+          
+        </div>
+        <br>
+      </div>
+      <button class="button-main mt-4">Sign in</button>
+    </form>
+  </div>
+</body>
+
+</html>
